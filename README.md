@@ -39,11 +39,11 @@ The Student Management System is a dynamic Java Swing application that empowers 
 ## Student Panel
 
 - [Student Login](StudentManagements.java)
-- [Student Dashboard](#features)
-- [Course Registration ](#features)
-- [Grade Report ](#features)
-- [Total Credit Hours ](#features)
-- [Logout ](#features)
+- [Student Dashboard](Students.java)
+- [Course Registration ](Students.java)
+- [Grade Report ](Students.java)
+- [Total Credit Hours ](Students.java)
+- [Logout ](Students.java)
 ## The Student Panel provides a personalized space for students. After logging in, students can register for courses, check their grades, and monitor their total credit hours. A clean interface ensures a seamless experience.
 
 ## Teacher Panel
