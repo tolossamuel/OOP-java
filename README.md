@@ -29,11 +29,11 @@ The Student Management System is a dynamic Java Swing application that empowers 
 ## Key Features
 ## Admin Panel
 - [Login with Admin Credentials](StudentManagements.java)
-- [Admin Dashboard](#features)
-- [Student and Teacher Management](#features)
-- [Grade Management](#features)
-- [Easy Navigation](#features)
-- [Features](#features)
+- [Admin Dashboard](Admin.java)
+- [Student and Teacher Management](Admin.java)
+- [Grade Management](Admin.java)
+- [Easy Navigation](Admin.java)
+- [Features](Admin.java)
 ## The Admin Panel is your gateway to system management. Log in as an administrator with the username "admin" and password "admin". From here, you can manage student and teacher records, view statistics on the system's population, oversee student grades, and easily navigate between these essential functions.
 
 ## Student Panel
