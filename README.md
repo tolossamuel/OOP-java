@@ -1,5 +1,5 @@
 This is team project java GUI created by
-- [Samuel Tolossa ](UGR/25454/14) 
+- [Samuel Tolossa ](ttps://github.com/tolossamuel) 
 - [Abel Alemayehu](UGR/25383/14)
 - [Tinsae Teferi](https://github.com/tinsae316)
 - [Bealprasim Demere](https://github.com/prasimbaal)
