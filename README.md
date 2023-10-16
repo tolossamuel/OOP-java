@@ -28,7 +28,7 @@ The Student Management System is a dynamic Java Swing application that empowers 
 
 ## Key Features
 ## Admin Panel
-- [Login with Admin Credentials](#features)
+- [Login with Admin Credentials](StudentManagements.java)
 - [Admin Dashboard](#features)
 - [Student and Teacher Management](#features)
 - [Grade Management](#features)
@@ -38,7 +38,7 @@ The Student Management System is a dynamic Java Swing application that empowers 
 
 ## Student Panel
 
-- [Student Login](#features)
+- [Student Login](StudentManagements.java)
 - [Student Dashboard](#features)
 - [Course Registration ](#features)
 - [Grade Report ](#features)
@@ -48,7 +48,7 @@ The Student Management System is a dynamic Java Swing application that empowers 
 
 ## Teacher Panel
 
-- [Teacher Login](#features)
+- [Teacher Login](StudentManagements.java)
 - [Teacher Dashboard](#features)
 - [Student List](#features)
 - [Grade Management](#features)
