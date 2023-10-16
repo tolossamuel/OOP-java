@@ -1,7 +1,7 @@
 This is team project java GUI created by
 - [Samuel Tolossa ](UGR/25454/14) 
 - [Abel Alemayehu](UGR/25383/14)
-- [Tinsae Teferi]([/tinsae316](https://github.com/tinsae316))
+- [Tinsae Teferi](#/tinsae316](https://github.com/tinsae316))
 - [Bealprasim Demere](UGR/25540/14)
 - [Biruk Sitota](UGR/25647/14)
 
