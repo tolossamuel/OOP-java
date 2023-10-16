@@ -30,6 +30,7 @@ public class about {
         String[] columnNames = {"<html><h2>Name</h2></html>", "<html><h2>ID numbers</h2></html>", "<html><h2>Professions</h2></html"};
         Object[][] data = {
             {"<html><h3>Samuel Tolossa</h3></html>", "<html><h3>UGR/25454/14</h3></html>", "<html><h3>Software Developers</h3></html>"},
+	    {"<html><h3>Meron Bahiru</h3></html>", "<html><h3>UGR/25880/14 </h3></html>", "<html><h3>Software Developers</h3></html>"},
             {"<html><h3>Abel Alemayehu</h3></html>", "<html><h3>Ugr/25383/14</h3></html>", "<html><h3>Software Developers</h3></html>"},
             {"<html><h3>Tinsae Teferi</h3></html>", "<html><h3>UGR/25753/14</h3></html>", "<html><h3>Software Developers</h3></html>"},
             {"<html><h3>Bealprasim Demere</h3></html>", "<html><h3>UGR/25540/14</h3></html>", "<html><h3>Software Developers</h3></html>"},
