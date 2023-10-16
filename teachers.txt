@@ -1,0 +1,5 @@
+Abebe Kebede	abe	Fundamental of Software Engineering
+Segni Gutu	segni	DLD
+Robsen Teshome	rebsen	Object Oriented Programming
+Samuel kebed	samuel	History
+Tesfaye Teferi	tesfaye	Psychology

@@ -1,0 +1,11 @@
+admin	admin	admin	Samuel 
+samy	samy	students	Samuel Tolossa
+abel	abel	students	Abel Alemayeyu
+tinsae	tinsae	students	Tinsae Teferi
+biruk	biruk	students	Biruk Stota
+beal	beal	students	Bealprasim Demere
+abe	abe	Fundamental of Software Engineering	Abebe Kebede
+segni	segni	DLD	Segni Gutu
+rebsen	teshome	Object Oriented Programming	Robsen Teshome
+samuel	samuel	History	Samuel kebed
+tesfaye	tesfaye	Psychology	Tesfaye Teferi

@@ -1,0 +1,5 @@
+Samuel Tolossa	Fundamental of Software Engineering	Fund	3
+Abel Alemayeyu	Fundamental of Software Engineering	Fund	3
+Tinsae Teferi	Fundamental of Software Engineering	FUND	3
+Biruk Stota	Fundamental of Software Engineering	FUND	3
+Bealprasim Demere	Fundamental of Software Engineering	FUND	3

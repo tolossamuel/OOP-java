@@ -1,0 +1,5 @@
+Samuel Tolossa	Object Oriented Programming	OOP	3
+Abel Alemayeyu	Object Oriented Programming	OOP	3
+Tinsae Teferi	Object Oriented Programming	OOP	3
+Biruk Stota	Object Oriented Programming	OOP	3
+Bealprasim Demere	Object Oriented Programming	OOP	3
