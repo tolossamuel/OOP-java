@@ -277,7 +277,58 @@ public class Admin {
 			}
 		});
 	}
+	private void staticData() throws IOException {
+		int totalStudents = countLinesInFile("students.txt");
+		int totalTeachers = countLinesInFile("teachers.txt");
 	
+		String[] courseOptions = {"Grade", "Fundamental of Software Engineering", "DLD", "Object Oriented Programming", "History", "Psychology"};
+		String [] gradeAll = {"A+","A","A-","B+","B","B-","C+","C","C-","D","F"};
+
+		DefaultTableModel model = new DefaultTableModel(courseOptions, 0);
+
+		JTable countGrad = new JTable(model);
+		for (int i = 0; i < gradeAll.length;i++){
+			Object[] rowData1 = new Object[courseOptions.length+1];
+			rowData1[0] = gradeAll[i];
+			for (int y = 0; y < courseOptions.length; y++){
+				rowData1[y+1] = (counters(courseOptions[y],gradeAll[i]));
+			}
+			model.addRow(rowData1);
+		}
+		JScrollPane scrollPane = new JScrollPane(countGrad);
+		scrollPane.setBounds(10, 200, 500, 150); // Set the position and size of the scroll pane
+	
+		JPanel statisticsPanel = new JPanel();
+		statisticsPanel.setLayout(null);
+	
+		JLabel titleLabel = new JLabel("<html><h2>Statistics</h2></html>");
+		titleLabel.setBounds(150, 10, 200, 30);
+	
+		JLabel studentsLabel = new JLabel("Total Students: " + totalStudents);
+		studentsLabel.setBounds(10, 50, 300, 30);
+	
+		JLabel teachersLabel = new JLabel("Total Teachers: " + totalTeachers);
+		teachersLabel.setBounds(10, 100, 300, 30);
+	
+		JButton backButton = new JButton("Back");
+		backButton.setBounds(10, 150, 100, 30);
+		backButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				homePage();
+			}
+		});
+	
+		statisticsPanel.add(titleLabel);
+		statisticsPanel.add(studentsLabel);
+		statisticsPanel.add(teachersLabel);
+		statisticsPanel.add(backButton);
+		statisticsPanel.add(scrollPane); // Add the scroll pane to the panel
+	
+		adminFrame.getContentPane().removeAll();
+		adminFrame.add(statisticsPanel);
+		adminFrame.revalidate();
+		adminFrame.repaint();
+	}
 	
 	
 	private int countLinesInFile(String fileName) {
@@ -469,4 +520,3 @@ public class Admin {
 		return Integer.toString(counters);
 	}
 }
-
