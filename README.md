@@ -49,11 +49,11 @@ The Student Management System is a dynamic Java Swing application that empowers 
 ## Teacher Panel
 
 - [Teacher Login](StudentManagements.java)
-- [Teacher Dashboard](#features)
-- [Student List](#features)
-- [Grade Management](#features)
-- [Save Changes](#features)
-- [Logout](#features)
+- [Teacher Dashboard](Teacher.java)
+- [Student List](Teacher.java)
+- [Grade Management](Teacher.java)
+- [Save Changes](Teacher.java)
+- [Logout](Teacher.java)
 ## Teachers can log in to access the Teacher Panel, where they can view their students' records, manage and update grades to update grades just click on the grad row end write on in after that press enter and click save buttons, and save changes conveniently. This interactive platform simplifies academic management tasks for educators.
 
 ## Prerequisites
