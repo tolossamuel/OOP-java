@@ -2,7 +2,7 @@ This is team project java GUI created by
 - [Samuel Tolossa ](UGR/25454/14) 
 - [Abel Alemayehu](UGR/25383/14)
 - [Tinsae Teferi](https://github.com/tinsae316)
-- [Bealprasim Demere]([UGR/25540/14](https://github.com/prasimbaal)
+- [Bealprasim Demere](https://github.com/prasimbaal)
 - [Biruk Sitota](UGR/25647/14)
 
 For temporary reviews of the system use Admin password 
