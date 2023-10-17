@@ -373,6 +373,33 @@ String[] courseOptions = {"Fundamental of Software Engineering", "DLD", "Object 
             return false;
         }
     }
+    protected String CalculateGrade() {
+        Map<String, Double> gradeDictionary = new HashMap<>();
+
+        // Populate the dictionary with grade values
+        gradeDictionary.put("A+", 4.0);
+        gradeDictionary.put("A", 4.0);
+        gradeDictionary.put("A-", 3.75);
+        gradeDictionary.put("B+", 3.5);
+        gradeDictionary.put("B", 3.0);
+        gradeDictionary.put("B-", 2.75);
+        gradeDictionary.put("C+", 2.5);
+        gradeDictionary.put("C", 2.0);
+        gradeDictionary.put("C-", 1.75);
+        gradeDictionary.put("D", 1.0);
+        gradeDictionary.put("F", 0.0);
+        gradeDictionary.put("-", 0.0);
+        double gradeTotal = 0.00;
+        int creditHour = 0;
+        for (int i = 0; i < myGrad.length; i++) {
+            gradeTotal += (gradeDictionary.get(myGrad[i][3]) * Integer.parseInt((String) myGrad[i][1]));
+            creditHour += Integer.parseInt((String) myGrad[i][1]);
+        }
+        gradeTotal /= creditHour;
+        DecimalFormat df = new DecimalFormat("#.##");
+        String roundedGradeTotal = df.format(gradeTotal);
+        return roundedGradeTotal;
+    }
 
     
 }
