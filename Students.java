@@ -56,7 +56,40 @@ class Students {
         JButton saveButton = new JButton("Save");
         registrationFormPanel.add(saveButton);
 
+        saveButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String course = courseComboBox.getSelectedItem().toString();
+                String creditHour = creditHoursTextField.getText();
+                String courseCode = courseCodeTextField.getText();
+                try {
+                    if (course.trim().isEmpty() || creditHour.trim().isEmpty() || courseCode.trim().isEmpty()) {
+                        JOptionPane.showMessageDialog(studentFrame, "Fill all spaces", "Error", JOptionPane.ERROR_MESSAGE);
+                    } else if (isNotRegistered(name, course)) {
+                        try {
+                            savedData(name, course, creditHour, courseCode);
+                            JOptionPane.showMessageDialog(studentFrame, "Saved successfully!!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                        } catch (NumberFormatException f) {
+                            JOptionPane.showMessageDialog(studentFrame, "Invalid input of credit hour", "Error", JOptionPane.ERROR_MESSAGE);
+                        }
+                    } else {
+                        JOptionPane.showMessageDialog(studentFrame, "This student is already registered for the selected course.", "Error", JOptionPane.ERROR_MESSAGE);
+                    }
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
 
+        // Add an action listener for the back button
+        backButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    showWelcomeMessage(name);
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
         // Add the registration form panel to the content panel
         contentPanel.add(registrationFormPanel, BorderLayout.CENTER);
 
